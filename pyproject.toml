@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab_04"
+version = "0.0.1"
+authors = [
+  { name="Matthew Davidson", email="matthew.davidson2@ucalgary.ca" },
+]
+description="Lab 4 package for GOPH 420 - Gutenberg-Ritcher Law"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "pytest>=6.0.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: GNU General Public License v3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MudkipTheGr8/goph-420-w2025-lab04-stMD"
