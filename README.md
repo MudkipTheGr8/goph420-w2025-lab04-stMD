@@ -1,1 +1,1 @@
-# goph420-w2025-lab04-stMD
+# GOPH 420 Lab 04
